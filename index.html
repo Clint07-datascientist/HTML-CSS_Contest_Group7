@@ -7,16 +7,19 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
-<body class="bg-gray-400, w-[100%], justify-center, items-center, flex, flex-wrao ">
-    <img src="./images/alu icon.jpg" alt="icon" class="w-20 h-10">
-    <div class="ml-10, bg-gray-400, w-[100%], justify-center, items-center, flex, flex-wrap">
-        <h1>Apply as a mentor</h1>
-        <input type="text" placeholder="Enter your name">
+</head>
+<body class="flex justify-center items-center min-h-screen bg-gray-400">
+    <!-- Container for the icon at top right -->
+    <div class="absolute top-0 right-0 p-4">
+        <img src="./images/alu icon.jpg" alt="icon" class="w-20 h-10">
     </div>
-
     
-    
-    
-    
+    <!-- Container for the centered content -->
+    <div class="bg-gray-100 p-6 rounded-lg">
+        <div class="mt-4 text-center">
+            <h1 class="text-2xl font-bold">Apply as a mentor</h1>
+            <input type="text" placeholder="Enter your name" class="mt-2 p-2 border rounded-md">
+        </div>
+    </div>
 </body>
 </html>
