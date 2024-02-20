@@ -23,6 +23,19 @@
 - [Authors](#authors)
 - [License](#license)
 
+
+## Features
+
+- Brief description of the website
+- Applications to be Mentored (for students) and to be a Mentor categorized into Career Advice and Resume Review.
+- Get to know Mentors.
+- Get to know the Team.
+
+
+## Technologies Used
+- **HTML5:** The structure of the web page.
+- **CSS3 and Tailwind CSS:** Styling and layout.
+
 ## Live Demo
 
 Check out the live version here: [Live Website](https://clint07-datascientist.github.io/HTML-CSS_Contest_Group7/)
