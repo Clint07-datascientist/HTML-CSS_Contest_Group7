@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MentorConnect</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-200">
+    
+    <!-- Content of application -->
+    <div class="mt-20 px-4 lg:px-0 flex flex-col md:flex-row justify-center items-center bg-gray-200">
+        <!-- Container for the centered content -->
+        <div class="flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-8 w-full max-w-screen-lg mx-auto">
+            <div class="flex flex-col justify-center w-full">
+                <div class="mt-4 text-center">
+                    <h1 class="text-2xl font-bold">Apply as a Student</h1>
+                    <input type="text" placeholder="Enter your name" required class="mt-2 p-2 border rounded-md w-full">
+                    <input type="text" placeholder="Enter your email" required class="mt-2 p-2 border rounded-md w-full">
+                    <input type="password" placeholder="Enter your password" required class="mt-2 p-2 border rounded-md w-full">
+                    <input type="tel" placeholder="Enter your phone number" required class="mt-2 p-2 border rounded-md w-full">
+                    <input type="text" placeholder="Enter your address" required class="mt-2 p-2 border rounded-md w-full"> <br>
+                    <label for="studentType" class="mt-2 p-2 border rounded-md w-full font-bold">Select Mentor Type</label>
+                    <select id="studentType" name="studentType" required class="mt-2 p-2 border rounded-md w-full md:w-40">
+                        <option value="CareerAdvice" #carreer>Career Advice</option>
+                        <option value="ResumeReview" #resume>Resume Review</option>
+                    </select>
+                    <a href="mentor.html" class="mt-4 block"><button class="bg-blue-500 text-white p-2 rounded-md w-full md:w-40">Submit</button></a>
+                </div>
+            </div>
+
+            <div class="flex flex-col mt-8 md:mt-0 w-full">
+                <div class="mt-4 text-center">
+                    <h1 class="text-2xl font-bold">Apply as a Mentor</h1>
+                    <input type="text" placeholder="Enter your name" class="mt-2 p-2 border rounded-md w-full">
+                    <input type="text" placeholder="Enter your email" class="mt-2 p-2 border rounded-md w-full">
+                    <input type="text" placeholder="Enter your resume" class="mt-2 p-2 border rounded-md w-full"> <br>
+                    <label for="mentorType" class="mt-2 p-2 border rounded-md w-full font-bold">Mentorship</label>
+                    <select id="mentorType" name="mentorType" required class="mt-2 p-2 border rounded-md w-full md:w-40">
+                        <option value="CareerAdvice" #carreer>Career Advice</option>
+                        <option value="ResumeReview" #resume>Resume Review</option>
+                    </select>
+                    <a href="about.html" class="mt-4 block"><button class="bg-blue-500 text-white p-2 rounded-md w-full md:w-40">Submit</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
