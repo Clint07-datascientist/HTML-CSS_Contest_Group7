@@ -13,6 +13,7 @@
 > [Features](#features)
 > [Technologies Used](#technologies-used)
 > [Live Demo](#live-demo)
+> [Installation](#installation)
 > [Contributions](#contributions)
 > [Conclusion](#conclusion)
 > [Authors](#authors)
@@ -45,6 +46,35 @@ This presentation is designed to provide stakeholders, team members, and interes
 
 Check out the live version here: [Live Website](https://clint07-datascientist.github.io/HTML-CSS_Contest_Group7/)
 
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Clint07-datascientist/HTML-CSS_Contest_Group7
+
+2. ## Running on a Live Server
+
+After setting up the project locally, you can run it on a live server to interact with the web application in real-time. This process will serve your project files on a local web server, making it easily accessible through a web browser.
+
+### Using Visual Studio Code Live Server
+
+If you are using Visual Studio Code (VS Code) as your IDE, you can use the Live Server extension to quickly start a server.
+
+1. **Install Live Server Extension**:
+
+   - Open VS Code and navigate to the Extensions view by clicking on the square icon on the sidebar or pressing `Ctrl+Shift+X`.
+   - Search for "Live Server" and click on the installing button.
+
+2. **Open the Project**:
+
+   - Open the project folder in VS Code by going to File > Open Folder and selecting the `HTML/CSS CONTEST` directory.
+
+3. **Start Live Server**:
+
+   - Right-click on the `index.html` file in the VS Code explorer and select "Open with Live Server", or click on the "Go Live" button at the bottom right of the VS Code window.
+   - Your default web browser will open, and the project will be served from a local URL, typically `http://127.0.0.1:5500`.
+   
 
 ## Contributions
 
